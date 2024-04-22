@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Hub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+</head>
+<body>
+    <section class="first-section">
+        <header class="header" role="banner">
+            <div class="background-overlay">
+                <h1 class="header-intro">Find your film</h1>
+                <nav class="header-nav">
+                    <ul>
+                        <li><a id="watchlist-link" href="watchlist.html">My Watchlist</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <div class="search-container">
+            <div class="search-bar">
+                <i class="fas fa-search"></i>
+                <input class="search" id="search" type="text" placeholder="Enter movie name🎥"/>
+                <div class="vertical-line"></div>
+                <button class="search-btn" id="search-btn">Search</button>
+            </div>
+        </div>
+        
+    </section>
+    <section class="second-section">
+        <div class="movie-list" id="movie-list">
+            <hr>
+            <div class="logo">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 500 500" xml:space="preserve">
+                    <path class="logo-path" d="M454.625 169.341H100.733l1.551-4.889.011-.04c.158-.5.301-1.002.428-1.507.03-.117.051-.236.079-.353.096-.405.19-.811.267-1.219.021-.109.034-.218.053-.327.074-.422.144-.843.197-1.267.01-.08.015-.16.025-.239.053-.456.1-.912.129-1.369l.007-.142c.029-.491.048-.982.05-1.473l-.001-.057a26.928 26.928 0 0 0-.405-4.721l2.369-.008a6.59 6.59 0 0 0 1.63-.211l338.293-87.658c7.374-1.911 11.803-9.437 9.892-16.811l-7.533-29.074C445.377 8.721 435.93 3.162 426.674 5.56L58.766 100.894c-20.435 5.296-33.749 24.956-31.081 45.897l10.666 83.688v231.948c0 17.989 14.583 32.573 32.573 32.573h369.155c17.989 0 32.573-14.583 32.573-32.573V187.368c0-9.956-8.071-18.027-18.027-18.027z"/>
+                    <!-- Other path elements -->
+                </svg>
+                <p>browse your favourite movies🔥</p>
+            </div>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>

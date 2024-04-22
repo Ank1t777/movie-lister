@@ -1,0 +1,190 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Header */
+.header {
+    position: relative;
+    padding: 3em 1.5em;
+    /* background-image: url('/images/andre-tan-THJJRUhNlEc-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 15vh; */
+}
+.watchlist-header, .header {
+    background-image: url('/images/andre-tan-THJJRUhNlEc-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 15vh;
+}
+
+.background-overlay {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Header Content */
+.header-intro {
+    margin: 0;
+    font-size: 2em;
+    color: #2b2d42;
+}
+
+/* Header Navigation */
+.header-nav {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.header-nav li {
+    display: inline;
+    margin-right: 1em;
+}
+
+
+.header-nav a {
+    color: #2b2d42;
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+.header-nav a:hover {
+    text-decoration: underline;
+}
+
+
+.search-container {
+    border: 1px solid #ccc;
+    padding: 0 0.5em;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vertical-line {
+    width: 1px;
+    height: 50px; /* Adjust the height of the line */
+    background-color: #ccc; /* Adjust the color of the line */
+    margin: 0 10px; /* Adjust the spacing between the line and the content */
+}
+
+.search-bar i {
+    margin-right: 10px; /* Add some spacing between icon and input */
+}
+
+.search {
+    height: 1.5em; /* Adjust the height as needed */
+    border: none; /* Remove default borders */
+    outline: none; /* Remove default focus outline */
+}
+
+#Layer_1 {
+    width: 2.5em;
+    height: 2.5em;
+}
+
+.movie-list {
+    margin-top: 5em;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    margin-top: 10em;
+}
+
+hr{
+    width: 90%;
+    margin-bottom: 2em;
+}
+
+.search-btn {
+    background-color: #ccc;
+    color: black;
+    margin: 0;
+    border: none;
+    padding: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.movie-list {
+    margin-left: 4rem;
+}
+#poster, #watchlist-poster {
+    width: 12em;
+    height: 12em;
+    border-radius: 0.313em;
+}
+
+.movie-heading, .movie-runtime {
+    display: flex;
+    gap: 1em;
+}
+
+.add-to-watchlist {
+    border: none;
+    border-radius: 0.5em;
+    /* background-color: #fff; */
+    padding-bottom: 12px;
+}
+
+#plot-details {
+    margin-left: 1em;
+}
+
+#rating{
+    margin-top: 1.3em;;    
+}
+
+.fa-plus-circle {
+    margin-top: 1em;
+}
+
+.add-to-watchlist:hover {
+    cursor: pointer;
+}
+
+.second-container, .movie-info, .movie-heading, .movie-runtime {
+    display: flex;
+    margin-left: 1em;
+}
+
+.watchlist-movies {
+    display: flex;
+    margin-top: 2em;
+    margin-left: 2em;;
+}
+
+.second-container{
+    flex-direction: column;
+}
+.watchlist-second-container {
+    margin-left: 2em;;
+}
+
+@media  (max-width: 375px) {
+    /* Styles for iPhone */
+    .watchlist-movies {
+        display: flex;
+        /* justify-content: center;
+        align-items: center; */
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
